@@ -14,7 +14,8 @@ public class Palindrom {
 		StringBuilder abc = new StringBuilder();
 		abc.append(str);
 		abc.reverse(); 						// olusturulan stringin tersi
-		String rvrs = abc.toString();
+		String rvrs = abc.toString();  //demo
+		System.out.println("Hello");
 
 		System.out.println("Metnin tersi: "+rvrs);
 
